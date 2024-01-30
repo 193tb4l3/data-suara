@@ -1,0 +1,232 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    font-size: 16px; /* Sesuaikan ukuran font untuk layar yang lebih besar */
+}
+
+h1, h2 {
+    color: #0a0a0a;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+/* Additional Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #dbcaa0;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9ec3c9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Navbar Style */
+nav {
+    background-color: #8B4513;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+/* Tentang Kami Style */
+#tentang-kami {
+    text-align: center;
+}
+
+#tentang-kami h1 {
+    font-size: 36px;
+    color: #2f89fc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#tentang-kami p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+#tentang-kami h2 {
+    font-size: 28px;
+    border-bottom: 4px solid #020203;
+    display: inline-block;
+}
+
+#tentang-kami ul {
+    text-align: left;
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 18px;
+    list-style: none;
+}
+
+/* Previous Styles */
+.container {
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+#total_suara, #total_batal {
+    font-weight: bold;
+}
+
+.alert-info {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Media query untuk responsif */
+
+/* Perangkat kecil (tablet orientasi potrait dan ponsel besar, 600px ke atas) */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 16px; /* Sesuaikan ukuran font untuk layar yang lebih besar */
+    }
+}
+
+/* Perangkat menengah (tablet orientasi landscape, 768px ke atas) */
+@media only screen and (min-width: 768px) {
+    /* Tambahkan gaya spesifik untuk perangkat menengah di sini */
+}
+
+/* Perangkat besar (laptop/desktop, 992px ke atas) */
+@media only screen and (min-width: 992px) {
+    /* Tambahkan gaya spesifik untuk perangkat besar di sini */
+}
+
+/* Perangkat sangat besar (laptop besar dan
+desktop, 1200px ke atas) /
+@media only screen and (min-width: 1200px) {
+/ Tambahkan gaya spesifik untuk perangkat sangat besar di sini */
+
+
+/* Tambahkan gaya animasi */
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+/* Tambahkan efek animasi pada tabel */
+.table-animated {
+animation: fadeIn 1s ease-in-out;
+}
+
+.table-animated thead th {
+background-color: #dbcaa0;
+color:#f6f5f2;
+}

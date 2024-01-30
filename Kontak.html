@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Halaman Kontak</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="Mursatas IT.png" width="200" height="100" alt="Mursatas IT Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tentang_kami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <h3>Halaman Kontak</h3>
+
+    <p>No HP Admin: 081237171566</p>
+    <p>Email Admin: mursatasit@gmail.com</p>
+    <p>No Rek BRI: [No Rek BRI]</p>
+    <p>Alamat Admin: Anjah-Anjah, Desa Rempek Darussalam, Kec Gangga, KLU</p>
+
+    <h3>Formulir Pemesanan</h3>
+    <form action="proses.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" required></textarea><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="pesanan">Pesanan:</label>
+        <textarea id="pesanan" name="pesanan" required></textarea><br>
+
+        <input type="submit" value="Kirim Pesanan">
+    </form>
+
+    <!-- Tambahkan ikon dan tautan untuk FB, IG, dan WA -->
+    <div clas<!-- Tambahkan kelas "social-icons" pada div -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61551839279255 target="_blank"><img src="fb.png" alt="Facebook" class="icon"></a>
+            <a href="https://www.instagram.com/4234n03?igsh=MWVibHM5eGdoZGw3aA== target="_blank"><img src="ig.png" alt="Instagram" class="icon"></a>
+            <a href="https://wa.me/6281237171566" target="_blank"><img src="wa.png" alt="WhatsApp" class="icon"></a>
+        </div>
+
+    </div>
+    <br>
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">Copyright Mursatas IT 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="path/to/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
